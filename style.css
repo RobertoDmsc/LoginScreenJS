@@ -1,20 +1,27 @@
-body  {
-    margin:none;
-    background-image: url(./background.jpeg);
-    background-size:100%;
-    background-repeat:no-repeat;
+body {
+    
+    background:url(./background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-position: center;
+    background-size:cover;  
+    margin-bottom:none;
+    padding-top:0;
+    margin-top:0;
 }
 
 #loginbox {
-    
+    border-radius: 5px;
     background-color: rgba(7, 7, 7, 0.781);
     text-align: center;
     margin-top:20%;
-    margin-left:20%;
-    margin-right:20%;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:80px;
-    padding-bottom:80px;
+    margin-left:40%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:0;
+    padding-bottom:20%;
     color: honeydew;
+    max-width: 100px;
+    max-height: 100px;
+
 }
