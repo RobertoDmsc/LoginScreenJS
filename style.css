@@ -5,23 +5,55 @@ body {
     background-attachment: fixed ;
     background-position: center;
     background-size:cover;  
-    margin-bottom:none;
-    padding-top:0;
-    margin-top:0;
+    font-family: sans-serif;
 }
 
 #loginbox {
-    border-radius: 5px;
-    background-color: rgba(7, 7, 7, 0.781);
+    width:320px;
+    height:420px;
+    background: rgba(0, 0, 0, 0.932);
+    top: 20%;
+    left: 20%;
+    position: absolute;
     text-align: center;
-    margin-top:20%;
-    margin-left:40%;
-    padding-left:5%;
-    padding-right:5%;
-    padding-top:0;
-    padding-bottom:20%;
-    color: honeydew;
-    max-width: 100px;
-    max-height: 100px;
+    color: gray;
+    border-radius: 4px;
+}
 
+#loginbox p {
+    margin:0;
+    padding:0;
+    text-align: left;
+    margin-left:10%;
+    color: rgb(61, 61, 61);
+}
+#loginbox input{
+    border-radius: 4px;
+    width: 80%;
+    margin-bottom: 30px;
+    outline:none;
+    border:none;
+    background-color: rgb(27, 27, 27);
+    color: #969494;
+}
+#loginbox input:hover{
+    color:  rgb(214, 214, 214);
+    background-color:  rgb(41, 41, 41);
+}
+#loginbox a{ 
+   text-decoration: none;
+   font-size: 12px;
+   color: gray;
+}
+
+#loginbox a:hover{
+    color: rgb(66, 65, 65);
+    background-color:rgba(26, 26, 26, 0.945);
+    padding:2%;
+    border-radius: 4px;
+}
+
+#loginbt:hover {
+   background-color:rgba(26, 26, 26, 0.945);
+   
 }
